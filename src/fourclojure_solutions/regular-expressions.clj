@@ -1,0 +1,3 @@
+(ns fourclojure-solutions.regular-expressions)
+
+(= "ABC" (apply str (re-seq #"[A-Z]+" "bA1B3Ce")))
